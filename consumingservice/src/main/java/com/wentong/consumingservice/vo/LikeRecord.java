@@ -1,4 +1,4 @@
-package com.wentong.countingservice.vo;
+package com.wentong.consumingservice.vo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data
 public class LikeRecord implements Serializable {
-    @TableId(type = IdType.AUTO)
+    @TableId(type= IdType.AUTO)
     private Long id;
     private Long userId;
     private Long videoId;
